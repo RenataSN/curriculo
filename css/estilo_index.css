@@ -1,0 +1,81 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.banner{
+    display: flex;
+}
+
+.banner img{
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.descricao_perfil{
+    background-color: #E8DDD9;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    bottom: -70px;
+}
+
+.navegacao ul li{
+    display: inline-block;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.navegacao ul li a{
+    color: #454545;
+}
+
+.navegacao ul{
+    text-align: center;
+}
+
+.content{
+    background-color: #F2F2F2;
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.informacoes{
+    text-align: center;
+    margin-top: 5%;
+    border: 1px solid black;
+}
+
+.informacoes h3{
+    margin-top: 6%;
+}
+
+.projetos h2{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.blocos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco_projeto{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.bloco_projeto img{
+    width: 100px;
+    height: 100px;
+}
